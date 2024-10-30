@@ -8,6 +8,10 @@ Link com o tutorial usado como base para este procedimento: https://www.youtube.
 - Baixar o MDT. Link: https://www.microsoft.com/en-us/download/details.aspx?id=54259
 - Ao rodar o Deployment Workbench ele vai solicitar a instalação do Windows ADK
 - Instalar o Windows ADK. Link: https://learn.microsoft.com/pt-br/windows-hardware/get-started/adk-install
+- DICA: quando for usar na produção use a segunda opção: baixar todo o pacote e depois faz a instalação.
+
+- Cria o primeiro Deployment Share, provavelmente vai dar um erro por falta do componente Windows PE.
+- Faça o download : link https://learn.microsoft.com/pt-br/windows-hardware/manufacture/desktop/winpe-intro?view=windows-11
 
 ### Passos
 
