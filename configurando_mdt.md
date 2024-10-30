@@ -15,16 +15,19 @@ Link com o tutorial usado como base para este procedimento: https://www.youtube.
 
 ### Passos
 
-#### 1. Atualizar o sistema
-Primeiro, você precisa garantir que o seu sistema esteja atualizado. Execute os seguintes comandos para atualizar os pacotes do Ubuntu:
+#### 1. Scritp de Instalação
+
+ Instalar silenciosamente
 
 ```bash
-sudo apt update
-sudo apt upgrade
+7-zip.exe /S
+Firefox.exe /S
+vlc.exe /S
+
 ```
 
-#### 2. Instalar os pacotes necessários
-Para ingressar no domínio Active Directory, instale o **Realmd**, o **SSSD**, o **Kerberos**, o **Winbind**, o **Samba** e algumas dependências adicionais que facilitarão o processo.
+#### 2. Instalar o windows 11
+Para
 
 ```bash
 sudo apt install realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-common-bin krb5-user chrony
