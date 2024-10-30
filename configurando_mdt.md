@@ -32,8 +32,11 @@ TightVNC
 
 ```
 Opções de instalação do TightVNC
+
 • msiexec /i tightvnc-2.5.2-setup-64bit.msi /quiet /norestart ADDLOCAL=Server
+
 • msiexec /i tightvnc-2.5.2-setup-64bit.msi /quiet /norestart ADDLOCAL=Viewer
+
 • msiexec /i tightvnc-2.5.2-setup-64bit.msi /quiet /norestart ADDLOCAL="Server,Viewer"
 
 #### 2. Criar uma pasta para cada software
